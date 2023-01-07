@@ -78,3 +78,35 @@
     padding-left: 35px;
 
 }
+/*My Plans styles*/
+.plans-title{
+    text-align: center;
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.plans-boxs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 70px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.box h2{
+    margin-top: 10px;
+    margin-bottom: 7px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.box h4{
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+}
