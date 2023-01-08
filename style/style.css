@@ -6,7 +6,7 @@
 }
 /*header styles*/
 .header{
-    background-image: url(../images/banner/banner1.png);
+    background-image: url(../images/banner/banner3.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,28 +19,30 @@
     padding-top: 200px;
     font-weight: 700;
     font-size: 60px;
-    padding-right: 130px;
+    color: #FFFFFF;
+    padding-right: 200px;
 }
 .h-sub-title{
     text-align: right;
     font-weight: 700;
+    color: #FFFFFF;
     font-size: 60px;
-    padding-right: 130px;
+    padding-right: 200px;
 }
 .h-description{
     text-align: right;
-    color: rgb(88, 81, 81);
+    color: #ebdcdc;
     font-weight: 400;
     font-size: 16px;
-    padding-right: 130px;
+    padding-right: 200px;
     padding-top: 30px;
     line-height: 30px;
 }
 .header .btn-primary{
-     margin-left: 81%;
-     padding: 24px;
-     background-color: rgb(236, 61, 17);
-     color: #fff;
+     margin-left: 76%;
+     padding: 20px;
+     background-color: #FFFFFF;
+     color: rgb(17, 57, 236);
      border: 0;
      border-radius: 5px;
      margin-top: 35px;
@@ -54,29 +56,37 @@
     align-items: center;
     gap: 50px;
 }
+.fa-check{
+    color: #16D887;
+}
 .failures-title img{
     height: 50px;
 }
 .failures-title h1{
-    font-size: 60px;
     font-weight: 700;
-    padding-left: 20px;
+    font-size: 40px;
+    padding-left: 25px;
     margin-bottom: 25px;
     margin-top: 20px;
 }
 .failures-title p{
     font-size: 20px;
-    color: rgb(70, 66, 66);
+    color: #747171;
     font-weight: 400;
     line-height: 25px;
-    padding-left: 20px;
+    padding-left: 25px;
     margin-bottom: 20px;
 }
 .failures-title li{
     list-style: none;
-    line-height: 20px;
-    padding-left: 35px;
+    line-height: 30px;
+    padding-left: 30px;
+    color: #747171;
 
+}
+.failures-img img{
+    width: 569px;
+    height: 723px;
 }
 /*My Plans styles*/
 .plans-title{
@@ -113,10 +123,10 @@
 /*Call-div styles*/
 .call-div{
     width: 1000px;
-    background:  url(../images/gradient3.png), url(../images/watch.png);
+    background:  url(../images/gradient1.png), url(../images/watch.png);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 20px auto;
+    margin: 90px auto;
 }
 .call-div h2{
     padding: 25px 25px;
@@ -138,7 +148,7 @@
     display: flex;
     background:  #151414;
     width: 100%;
-    height: 500px;
+    height: 550px;
     justify-content: center;
     align-items: center;
     gap: 200px;
@@ -191,3 +201,4 @@ a{
     font-weight: 400;
     font-size: 18px;
 }
+/*Assienment completed */
