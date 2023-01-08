@@ -89,7 +89,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 90px;
     margin-top: 70px;
 }
 .box{
@@ -103,10 +103,91 @@
     margin-top: 10px;
     margin-bottom: 7px;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
 }
 .box h4{
     color: #737272;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 20px;
+}
+/*Call-div styles*/
+.call-div{
+    width: 1000px;
+    background:  url(../images/gradient3.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px auto;
+}
+.call-div h2{
+    padding: 25px 25px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+}
+.btn-call{
+    padding: 15px 24px;
+    background-color: #fff;
+    color: rgb(236, 61, 17);
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 25px 25px;
+}
+/*footer-styles*/
+.footer-container{
+    display: flex;
+    background:  #151414;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    color: #fff;
+}
+.footer-title{
+    margin-bottom: 20px;
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.footer-description{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+.footer-img img{
+   margin-top: 20px;
+   width: 60px;
+   padding: 0 10px;
+}
+.footer-box .sub{
+    font-weight: 500;
+    font-size: 30px;
+}
+.footer-box input{
+    font-weight: 400;
+    font-size: 18px;
+    color: #F3F3F3;
+    background-color: #151414;
+    border: 2px solid #F3F3F3;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+.sub-btn{
+    padding: 17px 25px;
+    color: rgb(245, 100, 15);
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 120px;
+    font-weight: 400;
+    font-size: 18px;
 }
